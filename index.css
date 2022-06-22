@@ -1,0 +1,12 @@
+*{
+	font-family: "Boogaloo", cursive;
+	font-size: 20px;
+}
+
+
+#landing, #about-section, #samples, #contact-section {
+	height: 100vh;
+	margin-bottom: 20px;
+	margin-top: 30px
+}
+
