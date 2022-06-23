@@ -1,12 +1,100 @@
 *{
+	margin: 0;	
+	padding: 0;
+	box-sizing: border-box;
+}
+
+
+*{
 	font-family: "Boogaloo", cursive;
 	font-size: 20px;
 }
 
 
-#landing, #about-section, #samples, #contact-section {
+#landing, #about-section, #services, #samples, #contact-section{
 	height: 100vh;
-	margin-bottom: 20px;
-	margin-top: 30px
 }
 
+.jumbotron{
+	background-image: url(images/cake2.jpg);
+	min-height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 70% 60%;
+    background-attachment: scroll;
+    display: absolute;
+    opacity: 80%;
+    margin-bottom: 0;
+}
+
+
+
+
+/*.container{
+	min-height: 100vh;
+	position: relative;
+	/*margin-bottom: 2rem;
+}*/
+
+
+.bg-image2{
+	background-image: url(images/cake2.jpg);
+	min-height: 170vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 60% 60%;
+    background-attachment: scroll;
+    display: absolute;
+}
+
+.background-image{
+	background-image: url(images/cake2.jpg);
+	min-height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 60% 30%;
+    background-attachment: scroll;
+    display: absolute;
+}
+
+/*.image3{
+	background-image: url(images/cactusyellow.jpg);
+	min-height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 100% 100%;
+    background-attachment: scroll;
+    display: absolute;
+    opacity: 80%;
+}*/
+
+#footer {
+   padding:  5px;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: #E3D6EB;
+}
+
+
+#form{
+	max-height: 75vh;
+
+}
+
+.bg-pallette{
+	background-color: #E3D6EB;
+	min-height: 140vh;
+}
+
+.bg-footer{
+	text-align: center;
+	font-size: 15px;
+	color: black;
+}
+
+/*#other-proj{
+	background-color: #E3D6EB;
+	min-height: 100vh;
+	display: inline-table;
+}*/
