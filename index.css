@@ -11,7 +11,7 @@
 }
 
 
-#landing, #about-section, #services, #samples, #contact-section{
+#landing, #about-section, #samples, #contact-section{
 	height: 100vh;
 }
 
@@ -57,16 +57,6 @@
     display: absolute;
 }
 
-/*.image3{
-	background-image: url(images/cactusyellow.jpg);
-	min-height: 100vh;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: 100% 100%;
-    background-attachment: scroll;
-    display: absolute;
-    opacity: 80%;
-}*/
 
 #footer {
    padding:  5px;
@@ -84,7 +74,7 @@
 
 .bg-pallette{
 	background-color: #E3D6EB;
-	min-height: 140vh;
+	min-height: 150vh;
 }
 
 .bg-footer{
@@ -93,8 +83,3 @@
 	color: black;
 }
 
-/*#other-proj{
-	background-color: #E3D6EB;
-	min-height: 100vh;
-	display: inline-table;
-}*/
